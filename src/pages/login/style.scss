@@ -1,0 +1,11 @@
+@import '@style/common.scss';
+.login-wrap {
+    @include warp;
+    @include fixed-center;
+    width: 400px;
+    height: 220px;
+}
+.get-code {
+    cursor: pointer;
+    user-select: none;
+}

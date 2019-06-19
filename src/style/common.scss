@@ -1,0 +1,12 @@
+$shadow-color: rgba(186,194,206,.5);
+@mixin fixed-center {
+    position: fixed;
+    top: 0;left: 0; right: 0; bottom: 0;
+    margin: auto;
+    z-index: 1000;
+}
+@mixin warp {
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 0 6px $shadow-color;
+}
